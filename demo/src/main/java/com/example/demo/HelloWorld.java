@@ -15,6 +15,10 @@ public class HelloWorld {
 	return "Hello World";
 	}
 	
+	@GetMapping("/1")
+	public String sayHello1() {	
+	return "Hello World 1";
+	}
 	
 	
 	
